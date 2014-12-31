@@ -1,3 +1,6 @@
+'use strict';
+
+
 angular.module('app', [])
 .controller('PasswordController', function PasswordController($scope) {
   $scope.password = '';
