@@ -4,7 +4,7 @@
 myModule.filter('length', function() {
   return function(text) {
     return ('' + (text || '')).length;
-  }
+  };
 });
 
 describe('length filter', function() {
